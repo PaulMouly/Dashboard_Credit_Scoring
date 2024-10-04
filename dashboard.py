@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.title('Dashboard de Scoring Crédit')
 
 # Charger le DataFrame traité
-df_clients = pd.read_csv('data/X_predictionV1.csv')  
+df_clients = pd.read_csv('data/dataAPI.csv')  
 
 # Description du client
 st.header('Informations sur le client')
